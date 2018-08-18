@@ -15,6 +15,7 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
         <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,600,700" rel="stylesheet" type="text/css">
         <link href="css/font-roboto.css" rel="stylesheet" type="text/css">
+        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
     </head>
 
     <body class="scroll-assist">
@@ -234,7 +235,7 @@
 
 		        </div>
 
-		    </section> -->
+		    </section> - ->
         <section class="bg-dark pb64">
 				<div class="container">
 					<div class="row mb64 mb-xs-32">
@@ -257,6 +258,36 @@
 					</div>
 				</div>
 			</section>
+-->
+
+      </section>
+      <section class="bg-dark pb64">
+      <div class="container">
+        <div class="row mb64 mb-xs-32">
+          <div class="col-sm-6 col-sm-offset-3 text-center">
+            <h2 class="uppercase bold italic"><i class="ti-instagram">&nbsp;</i>Elite Auto & Finance</h2>
+            <p class="lead">
+              Follow us on instagram for inventory updates.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="instafeed grid-gallery gapless mb64 mb-xs-32 relative">
+        <iframe src="//lightwidget.com/widgets/1e9952401cae596fb0a63d89c421ba21.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3 text-center">
+            <a class="btn btn-lg btn-filled mb0" href="#">See more on Instagram</a>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+
+
+
 
 			<section>
 		        <div class="container">
@@ -281,12 +312,29 @@
 		                    </p>
 		                </div>
 		                <div class="col-sm-6 col-md-5 col-md-offset-1">
-		                    <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
+		                    <!-- <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
 		                        <input type="text" class="validate-required" name="name" placeholder="Your Name">
 		                        <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
 		                        <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
 		                        <button type="submit">Send Message</button>
-		                    </form>
+		                    </form> - ->
+                        <form class="form-email" method="POST" action="https://formspree.io/ashikbanjade@gmail.com">
+                        <!- -<form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly." method="POST" action="https://formspree.io/ashikbanjade@gmail.com"> - ->
+                            <input type="text" class="validate-required" name="name" placeholder="Your Name">
+                            <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
+                            <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
+                            <button type="submit">Send Message</button>
+                        </form> -->
+
+                        <form
+                              <form action="https://formspree.io/ashikbanjade@gmail.com" method="POST">
+                              <input type="text" name="name" placeholder="Your Name">
+                              <input type="text" class="validate-required validate-email" name="_replyto" placeholder="Email Address">
+                            <!--  <input type="email" name="_replyto" placeholder="Email Address"> -->
+                              <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
+                              <input type="submit" value="Send" Send Message>
+                          </form>
+
 		                </div>
 		            </div>
 
